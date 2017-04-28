@@ -276,7 +276,7 @@
 (setval FIRST NONE '(1 2 3 4))
 
 ;; Navigators extended to strings
-(setval (srange 2 4) "()" "abcdefg")
+(setval (srange 2 4) "(())" "abcdefg")
 (setval FIRST NONE "abcd")
 (setval END "!!!" "abcd")
 
